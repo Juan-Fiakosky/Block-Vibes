@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+	.app {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	.container-navbar-header {
+		padding: 10px;
+	}
+
+	.navbar-header {
+		padding-left: 15px;
+	}
+
+	.navbar-nav-header .nav-item-header {
+		font-size: 14px;
+	}
+
+	.app-container {
+		flex-direction: column;
+		justify-content: center;
+		position: fixed;
+	}
+
+	.content {
+		flex-direction: column;
+		margin-bottom: 5px;
+	}
+
+	.container-footer {
+		flex-direction: column;
+		margin-top: 10px;
+		align-items: center;
+	}
+
+	.footer {
+		text-align: left;
+	}
+
+	.navbar-nav-footer {
+		margin: 0;
+	}
+}

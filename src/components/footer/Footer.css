@@ -1,0 +1,89 @@
+/*FONTS*/
+@font-face {
+	font-family: "PP Neue Machina";
+	src: url("./Fonts/NeueMachina-Light.woff") format("woff");
+}
+
+.container-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	box-sizing: border-box;
+	color: #000000;
+	z-index: 1000;
+}
+
+.content {
+	display: flex;
+	font-size: 20px;
+	gap: 30px;
+	flex-grow: 1;
+}
+
+.navbar-footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 30px;
+	gap: 30px;
+}
+
+.navbar-nav-footer a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.navbar-nav-footer {
+	list-style: none;
+	padding: 0;
+	margin: 5px 0 0 0;
+	gap: 24px;
+}
+
+.navbar-nav-footer .nav-item-footer {
+	font-family: "PP Neue Machina";
+	font-weight: 500;
+	font-style: normal;
+	line-height: 120%;
+	display: inline-block;
+	margin-right: 20px;
+	color: #000000;
+	cursor: pointer;
+	border-bottom: 1px solid black; 
+	padding-bottom: 1px; 
+	transition: border-color 0.2s ease-out;
+}
+
+.navbar-nav-footer .nav-item-footer:hover,
+.navbar-footer:hover {
+	border-bottom-color: #ffffff;
+	color: #fff;
+}
+
+.footer {
+	margin-top: 15px;
+	font-size: 12px;
+	text-align: right;
+}
+
+.description {
+	font-family: var(--twist-font-family-pilat-wide);
+	cursor: default;
+}
+
+.style-legal {
+	font-family: var(--twist-font-family-pilat-wide);
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+	margin-right: 10px;
+	line-height: 1.4;
+}
+
+.style-legal:hover {
+	color: #fff;
+}

@@ -1,0 +1,90 @@
+/* Fonts */
+:root {
+	--twist-font-family-pilat-wide: "Pilat Wide", sans-serif;
+}
+
+.header-container {
+	display: grid;
+	grid-template-columns: 1fr 60px;
+	padding: 25px;
+	z-index: 1000;
+}
+
+.container-one,
+.container-two {
+	display: flex;
+	background-color: transparent;
+	align-items: center;
+	border: 1px solid #000000;
+	cursor: pointer;
+	transition: background-color 0.2s ease-out;
+}
+
+.container-one {
+	width: 230px;
+	height: 56px;
+	border-radius: 30px 0 0 30px;
+	margin: 10px 0 0 10px;
+}
+
+.container-two {
+	margin-top: 10px;
+}
+
+.container-one:hover,
+.container-two:hover {
+	background-color: #fff;
+}
+
+.icon-play {
+	margin-left: 20px;
+	width: 20px;
+	height: 20px;
+	color: #000000;
+}
+
+.container-play {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 15px;
+	margin-right: 10px;
+	color: #000000;
+}
+
+.container-play h3,
+.container-play p {
+	text-align: left;
+	margin: 0;
+	font-family: "Pilat Wide", sans-serif;
+}
+
+.container-play h3 {
+	font-size: 12px;
+	margin-bottom: 4px;
+	letter-spacing: 0.04em;
+	line-height: 1.15;
+	text-overflow: ellipsis;
+	font-weight: 700;
+}
+
+.container-play p {
+	font-size: 10px;
+	letter-spacing: 0.04em;
+	line-height: 1.15;
+	text-overflow: ellipsis;
+	font-weight: 400;
+}
+
+.container-two {
+	width: 58.8px;
+	height: 56px;
+	border-radius: 0 30px 30px 0;
+	justify-content: center;
+}
+
+.logo-vibes {
+	width: 24px;
+	height: 24px;
+	color: #000000;
+}
