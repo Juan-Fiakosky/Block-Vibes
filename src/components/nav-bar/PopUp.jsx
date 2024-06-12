@@ -10,8 +10,9 @@ const PopUp = ({ isOpen, closeModal }) => {
 			style={{
 				content: {
 					borderRadius: "12px",
-					width: "400px",
-					height: "300px",
+					width: "80%", 
+					maxWidth: "320px", 
+					height: "auto",
 					top: "50%",
 					left: "50%",
 					transform: "translate(-50%, -50%)",
@@ -41,35 +42,42 @@ const PopUp = ({ isOpen, closeModal }) => {
 				×
 			</button>
 			<p>Use the controls below to customize your web experience.</p>
-			<div style={{ marginTop: "80px" }}>
+			<div style={{ marginTop: "20px" }}>
 				<div
 					style={{
 						display: "flex",
-						justifyContent: "space-between",
-						borderBottom: "1px solid white",
-						paddingBottom: "10px",
+						flexDirection: "column", 
 					}}
 				>
-					<label htmlFor="reduce-color">Reduce color</label>
-					<input
-						style={{ cursor: "pointer" }}
-						type="checkbox"
-						id="reduce-color"
-					/>
-				</div>
-				<div
-					style={{
-						display: "flex",
-						justifyContent: "space-between",
-						paddingTop: "10px",
-					}}
-				>
-					<label htmlFor="reduce-motion">Reduce motion</label>
-					<input
-						style={{ cursor: "pointer" }}
-						type="checkbox"
-						id="reduce-motion"
-					/>
+					<div
+						style={{
+							display: "flex",
+							justifyContent: "space-between",
+							borderBottom: "1px solid white",
+							paddingBottom: "10px",
+						}}
+					>
+						<label htmlFor="reduce-color">Reduce color</label>
+						<input
+							style={{ cursor: "pointer" }}
+							type="checkbox"
+							id="reduce-color"
+						/>
+					</div>
+					<div
+						style={{
+							display: "flex",
+							justifyContent: "space-between",
+							paddingTop: "10px",
+						}}
+					>
+						<label htmlFor="reduce-motion">Reduce motion</label>
+						<input
+							style={{ cursor: "pointer" }}
+							type="checkbox"
+							id="reduce-motion"
+						/>
+					</div>
 				</div>
 			</div>
 		</Modal>

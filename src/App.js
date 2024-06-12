@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import MainContent from "./components/MainContent/MainContent";
+import MainContent from "./components/MainContent/MainContent.jsx";
 import NavBar from "./components/nav-bar/NavBar";
 import BlockLogo from "./components/footer/BlockLogo";
 import "./App.css";
